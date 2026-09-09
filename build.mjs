@@ -18,6 +18,9 @@ const document = `<!doctype html>
     #keysHomeVariantThree .k3-line { background: #dfe2e7 !important; }
     #keysHomeVariantThree .k3-line::before { box-shadow: 0 0 0 3px #edf1ff !important; }
     #keysHomeVariantThree .k3-point.current .k3-line::before { box-shadow: 0 0 0 3px #eaf7ef !important; }
+    #keysFindPages [data-page-id="results"] :is(.kp-back,.kp-icon-btn) > svg { width: 19px !important; height: 19px !important; stroke-width: 1.8; flex: none; }
+    #keysFindPages [data-page-id="results"] .kp-query > svg { width: 18px !important; height: 18px !important; stroke-width: 1.8; flex: none; }
+    #keysFindPages [data-page-id="results"] .kp-heart > svg { width: 17px !important; height: 17px !important; stroke-width: 1.8; flex: none; }
     #keysFourSections .kf-breakfast-offer { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 12px; padding: 14px; }
     #keysFourSections .kf-breakfast-main { min-width: 0; }
     #keysFourSections .kf-breakfast-main > strong { margin: 0; }
