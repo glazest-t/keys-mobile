@@ -15,6 +15,9 @@ const document = `<!doctype html>
     :root { color-scheme: light only; }
     html { min-width: 320px; background: #eef0f3; }
     body { min-height: 100vh; margin: 0; padding: 24px 12px; }
+    #keysHomeVariantThree .k3-line { background: #dfe2e7 !important; }
+    #keysHomeVariantThree .k3-line::before { box-shadow: 0 0 0 3px #edf1ff !important; }
+    #keysHomeVariantThree .k3-point.current .k3-line::before { box-shadow: 0 0 0 3px #eaf7ef !important; }
     #keysFourSections .kf-breakfast-offer { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 12px; padding: 14px; }
     #keysFourSections .kf-breakfast-main { min-width: 0; }
     #keysFourSections .kf-breakfast-main > strong { margin: 0; }
