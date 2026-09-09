@@ -24,6 +24,7 @@ const document = `<!doctype html>
     #keysFourSections .kf-breakfast-old { display: block; font-size: 11px; line-height: 15px; font-weight: 400; color: #8a9099; text-decoration: line-through; }
     #keysFourSections .kf-breakfast-new { display: block; margin-top: 2px; font-size: 13px; line-height: 17px; font-weight: 600; color: #2857d8; }
     #keysFourSections .kf-breakfast-saving { display: block; margin-top: 3px; font-size: 11px; line-height: 15px; font-weight: 600; color: #23714e; }
+    #keysFourSections .kf-benefit-hero + .kf-section { margin-bottom: 0; }
     @media (max-width: 520px) { body { padding: 8px 0 20px; } }
   </style>
 </head>
