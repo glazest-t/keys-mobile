@@ -10,6 +10,7 @@ const document = `<!doctype html>
   <meta name="theme-color" content="#f7f7f5">
   <meta name="description" content="Интерактивный прототип мобильного приложения «Ключи» для путешественников.">
   <title>Ключи — интерактивный прототип</title>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"></script>
   <style>
     html { min-width: 320px; background: light-dark(#eef0f3, #0b0d10); }
     body { min-height: 100vh; margin: 0; padding: 24px 12px; }
