@@ -14,6 +14,15 @@ const document = `<!doctype html>
   <style>
     html { min-width: 320px; background: light-dark(#eef0f3, #0b0d10); }
     body { min-height: 100vh; margin: 0; padding: 24px 12px; }
+    /* Keep the route timeline continuous in the standalone GitHub Pages build. */
+    #keysHomeVariantThree .k3-point { overflow: visible; }
+    #keysHomeVariantThree .k3-line {
+      align-self: stretch;
+      min-height: 64px;
+      margin-block: -12px;
+      z-index: 0;
+    }
+    #keysHomeVariantThree .k3-line::before { z-index: 1; }
     @media (max-width: 520px) { body { padding: 8px 0 20px; } }
   </style>
 </head>
